@@ -1,0 +1,7 @@
+import math
+x = float(input("Enter the x-coordinate of the first point: "))
+y = float(input("Enter the y-coordinate of the first point: "))
+a = float(input("Enter the x-coordinate of the second point: "))
+b = float(input("Enter the y-coordinate of the second point: "))
+distance = math.sqrt((a-x)**2 + (b-y)**2)   #for finding the distance between two point
+print("The distance between the two points is:", distance)
